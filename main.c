@@ -111,7 +111,7 @@ int checkAnagrams(char * str1, char * str2)
 	}
 	
 	// Case 1. 중간에 빠져나왔다면 아나그램이 아니다.
-	if (i < 'Z' - 'A')
+	if (i < 'Z' - 'A' + 1)
 		result = FALSE;
 	// 반복문을 끝까지 돌았다면 아나그램이다.
 	else
